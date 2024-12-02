@@ -1,0 +1,38 @@
+name: fornoesabor
+description: "Aplicativo para a pizzaria Forno e Sabor."
+publish_to: 'none' # Mantenha para evitar publicação acidental
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.0
+  cupertino_icons: ^1.0.8
+  google_fonts: ^3.0.1    # Para adicionar fontes customizadas do Google
+  provider: ^6.0.5        # Para gerenciamento de estado, útil para lógica de autenticação
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assents/logo.png
+    - lib/assents/portuguesa.png
+    - lib/assents/calabresa.png
+    - lib/assents/strogonoff_frango.png
+    - lib/assents/strogonoff_carne.png
+    - lib/assents/moda.png
+    - lib/assents/coca_cola.png
+    - lib/assents/guarana.png
+    - lib/assents/suco_laranja.png
+    - lib/assents/agua.png
+  fonts:
+    - family: CustomFont
+      
